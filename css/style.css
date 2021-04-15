@@ -117,14 +117,20 @@ body{
     text-decoration: none;
     display: block;
 }
+.burger{
+    display: none;
+}
+
 .menu-content a:hover {background-color: #ddd;}
 
-.btn1:hover .menu-content {display: block;} 
-.btn2:hover .menu-content {display: block;}
-.btn3:hover .menu-content {display: block;} 
-.btn4:hover .menu-content {display: block;}
-.btn5:hover .menu-content {display: block;} 
-.btn6:hover .menu-content {display: block;}
+@media (min-width: 769px) {
+    .btn1:hover .menu-content {display: block;} 
+    .btn2:hover .menu-content {display: block;}
+    .btn3:hover .menu-content {display: block;} 
+    .btn4:hover .menu-content {display: block;}
+    .btn5:hover .menu-content {display: block;} 
+    .btn6:hover .menu-content {display: block;}
+}
 
 .header-row{
     display: flex;
@@ -1395,6 +1401,45 @@ body{
     .menu{
         margin-top: 30px;
         height: 35px;
+        position: relative;
+    }
+    .burger{
+        display: inline-block;
+    }
+    .burger ::after{
+        display: inline-block;
+        font-family: 'icomoon';
+        content: "\f0ca";
+        color: #506ed1;
+        font-size: 35px;
+        transform: rotate(0deg);
+    }
+    .burger-active{
+        display: inline-block;
+        font-family: 'icomoon';
+        content: "\f0ca";
+        color: #506ed1;
+        font-size: 35px;
+        transition: 0.3s ease;
+        transform: rotate(90deg);
+    }
+    .openMenu{
+        display: none;/*вот менюха не отображается в нормальном сюжете*/
+    }
+    .openMenu-active{
+        display: inline-block;
+        /*Есть мысли на тупом вьебать сюда стили той менюхи и при нажатии кнопки вся эта хрень должна засветится. Но я считаю что джсом можно просто задать значение дисплея
+        но не нахожу как это сделать*/
+    }
+    .menu ul{
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #506ed1;
+        border-radius: 5px;
     }
     .btn1 a,
     .btn2 a,
