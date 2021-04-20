@@ -1783,7 +1783,7 @@ body{
     }
 @media only screen and (max-width: 425px) {
     body{
-        width: 425px;
+        width: 408px;
     }/*
     .tittle p{
         font-size: 30px;
@@ -1838,97 +1838,105 @@ body{
     }
     /*HEALTH*/
     .health{
-        height: 220px;
+        height: 175px;
     }
     .health-img{
-        right: 20px;
+        right: 5px;
         top: 115px;
     }
     .health-l{
         width: 290px;
     }
     .health-img img{
-        width: 360px;
+        width: 220px;
     }
     .health-tittle{
         margin-top: 0px;
-        font-size: 25px;
-        height: 55px;
-        width: 290px;
+        font-size: 18px;
+        height: 40px;
+        width: 210px;
+        margin-bottom: 10px;
     }
     .health-text{
-        width: 325px;
-        font-size: 15px;
+        width: 160px;
+        font-size: 12px;
         margin-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+        height: 60px;
 
     }
     .health .def-button a{
         margin-top: 0;
-        width: 170px;
-        height: 50px;
-        font-size: 15px;
-        padding-top: 13px;
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
+        padding-top: 10px;
     }
     /*HELP*/
     
     .help{
-        height: 275px;
-    }/*
+        height: 110px;
+    }
     .help-img{
-        padding-top: 70px;
-    }*/
+        padding-top: 5px;
+    }
     .help-img img{
-        width: 90px;
-        height: 90px;
+        width: 60px;
+        height: 60px;
         margin: 0 auto;
-        margin-bottom: 135px;
+        margin-bottom: 150px;
     }
     .help-tittle{
-        height: 125px;
-        width: 555px;
+        height: 80px;
+        width: 360px;
         margin: 0 auto;
-        font-size: 25px;
-        padding-top: 25px;
+        font-size: 15px;
+        padding-top: 17px;
     }
     .phone-button{
-        width: 400px;
+        width: 180px;
         margin: 0 auto;
-        padding-top: 70px;
+        padding-top: 80px;
     }
     .phone-button a{
-        width: 320px;
-        height: 60px;
-        font-size: 20px;
-        padding-top: 20px;
+        width: 180px;
+        height: 40px;
+        font-size: 15px;
+        padding-top: 12px;
         margin: 0 auto;
     }
     /*LEARN*/
     .learn{
-        height: 330px;
+        height: 230px;
     }
     .our-health-l,
     .learn-l{
-        width: 405px;
+        width: 185px;
+        height: 210px;
+    }
+    .learn-r{
+        height: 210px;
     }
     .learn-tittle{
         margin-top: 55px;
-        font-size: 25px;
+        font-size: 20px;
         height: 25px;
+        width: 200px;
     }
     .our-health-text,
     .learn-text{
-        margin-bottom: 35px;
-        font-size: 15px;
-        width: 300px;
+        margin: 15px 0;
+        font-size: 12px;
+        width: 220px;
+        height: 40px;
     }
     .our-health .def-button a,
     .learn .def-button a{
         margin-top: 0;
-        width: 160px;
-        height: 55px;
-        font-size: 17px;
-        padding-top: 17px;
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        padding-top: 10px;
     }
     .our-health-tittle{
         margin-top: 0;
@@ -1938,7 +1946,7 @@ body{
     }
     .our-health-img img,
     .learn-img img{
-        width: 300px;
+        width: 180px;
     }
     .learn-img{
         top: 80px;
@@ -1949,38 +1957,43 @@ body{
         right: 10px;
     }
     /*our-health*/
+    .our-health-row{
+        height: 160px;
+        width: 200px;
+    }
     .our-health{
-        height: 255px;
+        height: 155px;
     }
     .our-health-tittle{
-        width: 405px;
-        font-size: 25px;
+        width: 250px;
+        font-size: 20px;
+        height: 25px;
     }
     /*SERVICES*/
     .services{
-        height: 790px;
+        height: 755px;
     }
     .content{
-        width: 200px;
+        width: 109px;
     }
     .column{
         height: 220px;
     }
     .s-tittle{
-        font-size: 30px;
-        height: 65px;
+        font-size: 23px;
+        height: 40px;
     }
     .svs-img img{
         width: 70px;
     }
     .svs-tittle{
-        width: 200px;
-        font-size: 25px;
+        width: 110px;
+        font-size: 18px;
         height: 30px;
     }
     .svs-text{
-        width: 200px;
-        font-size: 13px;
+        width: 110px;
+        font-size: 12px;
     }
     .s-mopre{
         height: 40px;
@@ -1990,15 +2003,17 @@ body{
     }
     /*DOCTORS*/
     .doctors{
-        height: 180px;
+        height: 145px;
     }
     .doc{
-        height: 330px;
+        width: 100px;
+        margin: 0 20px;
     }
     .doc-tittle{
-        font-size: 30px;
-        height: 55px;
-        margin-top: 40px;
+        font-size: 23px;
+        height: 25px;
+        margin-top: 10px;
+        width: 200px;
     }
     .doc-img img{
         width: 187px;
@@ -2022,65 +2037,83 @@ body{
         padding-top: 40px;
     }
     .slick-dots li button{
-        width: 120px;
+        width: 80px;
         height: 12px;
     }
     .slick-dots li.slick-active button{
-        width: 80px;
+        width: 60px;
         height: 12px;
     }
     /*LATEST NEWS*/
     .latest-news{
-        height: 280px;
+        height: 90px;
     }
     .tittle-text{
-        font-size: 15px;
+        font-size: 12px;
         height: 55px;
+        width: 350px;
+    }
+    .tittle p{
+        font-size: 25px;
+        width: 350px;
     }
     .news-img img{
-        width: 310px;
+        width: 140px;
     }
     .news{
-        width: 310px;
-        height: 410px;
+        width: 140px;
+        height: 250px;
     }
     .news-txt{
-        font-size: 23px;
-        width: 315px;
+        font-size: 12px;
+        width: 135px;
         height: 80px;
+        text-align: center;
+        margin-left: 0;
     }
     .news-icon{
-        margin-left: -140px;
+        margin-left: 0px;
+        margin-top: 15px;
     }
     .news-icon img{
         width: 25px;
     }
     .news-comments{
-        top: -2px;
-        margin-right: -65px;
-        font-size: 15px;
+        top: 0px;
+        margin-right: 25px;
+        font-size: 10px;
+        width: 65px;
+        margin-left: 0;
     }
     /*SIGN UP*/
+    .sign-up{
+        height: 200px;
+    }
     .forms-row{
         margin-top: -40px;
     }
     .form-box{
-        width: 400px;
+        width: 350px;
+    }
+    .login p{
+        width: 250px;
+        font-size: 15px;
+        margin-top: 10px;
     }
     .form-box input{
-        width: 320px;
+        width: 180px;
         height: 50px;
         font-size: 15px;
         margin-top: 20px;
     }
     .sign-img{
-        top: 90px;
-        left: 0;
+        top: -150px;
+        left: 200px;
     }
     .sign-img img{
-        width: 260px;
+        width: 155px;
     }
-    /*LOCATION*/
+    /*LOCATION
     .tittle-loc{
         margin-top: 140px;
         font-size: 30px;
@@ -2090,23 +2123,43 @@ body{
         height: 400px;
     }
     /*ABOUT*/
+    .about{
+        height: 610px;
+    }
     .about-text{
-        font-size: 15px;
+        font-size: 12px;
         height: 50px;
-        width: 675px;
+        width: 315px;
     }
     .about1 p,
     .about2 p,
     .about3 p{
+        font-size: 9px;
+        padding-left: 1px;
+    }
+    .about1::before,
+    .about2::before,
+    .about3::before{
         font-size: 13px;
+
+    }
+    .about-row{
+        margin-top: 0;
+    }
+    .about2{
+        margin: 0;
     }
     /*ABOUT FORM*/
     .left-form{
-        width: 355px;
+        width: 370px;
+        display: block;
     }
     .about-form-inner{
-        width: 695px;
+        width: 370px;
 
+    }
+    .left-form-inner{
+        width: 370px;
     }
     .left-form-inner input{
         margin-top: 30px;
@@ -2116,8 +2169,10 @@ body{
     }
     .right-form{
         width: 300px;
-        top: -6px;
+        top: 35px;
         left: 20px;
+        text-align: center;
+
     }
     .right-form textarea{
         width: 285px;
@@ -2128,10 +2183,10 @@ body{
     }
     .forms-row{
         width: 280px;
-        left: -13;
+        left: 15px;
     }
     .telega{
-        left: 240px;
+        left: 115px;
         bottom: 50px;
     }
     }
@@ -2146,9 +2201,13 @@ body{
         margin-top: 35px;
     }
     .footer-img{
-        padding-top: 20px;
+        padding-top: 0px;
+    }
+    .footer-img img{
+        width: 20px;
     }
     .footer-info{
-        font-size: 15px;
+        font-size: 10px;
         padding-bottom: 5px;
+        height: 12px;
     }    
