@@ -2210,4 +2210,792 @@ body{
         font-size: 10px;
         padding-bottom: 5px;
         height: 12px;
-    }    
+    }
+    @media only screen and (max-width: 375px) {
+        body{
+            width: 355px;
+        }
+        .container{
+            padding: 0 15px;
+        }
+        /*HEALTH*/
+        .health{
+            height: 175px;
+        }
+        .health-img{
+            right: 5px;
+            top: 135px;
+        }
+        .health-l{
+            width: 290px;
+        }
+        .health-img img{
+            width: 190px;
+        }
+        .health-tittle{
+            margin-top: 0px;
+            font-size: 18px;
+            height: 40px;
+            width: 210px;
+            margin-bottom: 10px;
+        }
+        .health-text{
+            width: 160px;
+            font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 60px;
+    
+        }
+        .health .def-button a{
+            margin-top: 0;
+            width: 140px;
+            height: 40px;
+            font-size: 13px;
+            padding-top: 10px;
+        }
+        /*HELP*/
+        
+        .help{
+            height: 110px;
+        }
+        .help-img{
+            padding-top: 5px;
+        }
+        .help-img img{
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            margin-bottom: 150px;
+        }
+        .help-tittle{
+            height: 70px;
+            width: 315px;
+            margin: 0 auto;
+            font-size: 15px;
+            padding-top: 13px;
+        }
+        .phone-button{
+            width: 180px;
+            margin: 0 auto;
+            padding-top: 80px;
+        }
+        .phone-button a{
+            width: 180px;
+            height: 30px;
+            font-size: 15px;
+            padding-top: 7px;
+            margin: 0 auto;
+        }
+        /*LEARN*/
+        .learn{
+            height: 230px;
+        }
+        .our-health-l,
+        .learn-l{
+            width: 185px;
+            height: 210px;
+        }
+        .learn-r{
+            height: 210px;
+        }
+        .learn-tittle{
+            margin-top: 55px;
+            font-size: 20px;
+            height: 25px;
+            width: 200px;
+        }
+        .our-health-text,
+        .learn-text{
+            margin: 15px 0;
+            font-size: 12px;
+            width: 219px;
+            height: 40px;
+        }
+        .our-health .def-button a,
+        .learn .def-button a{
+            margin-top: 0;
+            width: 150px;
+            height: 40px;
+            font-size: 14px;
+            padding-top: 10px;
+        }
+        .our-health-tittle{
+            margin-top: 0;
+        }
+        .our-health-tittle p{
+            margin-top: 0;
+        }
+        .our-health-img img,
+        .learn-img img{
+            width: 150px;
+        }
+        .learn-img{
+            top: 80px;
+            right: 10px;
+        }
+        .our-health-img{
+            top: 65px;
+            right: 10px;
+        }
+        /*our-health*/
+        .our-health-row{
+            height: 160px;
+            width: 200px;
+        }
+        .our-health{
+            height: 155px;
+        }
+        .our-health-tittle{
+            width: 250px;
+            font-size: 20px;
+            height: 25px;
+        }
+        /*SERVICES*/
+        .services{
+            height: 675px;
+        }
+        .content{
+            width: 100px;
+        }
+        .column{
+            height: 195px;
+        }
+        .s-tittle{
+            font-size: 23px;
+            height: 40px;
+        }
+        .svs-img{
+            height: 60px;
+        }
+        .svs-img img{
+            width: 70px;
+        }
+        .svs-tittle{
+            width: 110px;
+            font-size: 18px;
+            height: 15px;
+        }
+        .svs-text{
+            width: 110px;
+            font-size: 12px;
+        }
+        .s-mopre{
+            height: 40px;
+        }
+        .s-more a{
+            font-size: 20px;
+        }
+        /*DOCTORS*/
+        .doctors{
+            height: 145px;
+        }
+        .doc{
+            width: 100px;
+            margin: 0 20px;
+        }
+        .doc-tittle{
+            font-size: 23px;
+            height: 25px;
+            margin-top: 10px;
+            width: 200px;
+        }
+        .doc-img img{
+            width: 187px;
+        }
+        .doc-name{
+            font-size: 25px;
+            width: 187px;    
+        }
+        .doc-spec p{
+            font-size: 15px;
+            width: 187px;    
+        }
+        .connect img{
+            width: 25px;
+        }
+        /*slick dots*/
+        .slick-dots{
+            padding-top: 0;
+        }
+        .slick-dots li{
+            padding-top: 40px;
+        }
+        .slick-dots li button{
+            width: 80px;
+            height: 12px;
+        }
+        .slick-dots li.slick-active button{
+            width: 60px;
+            height: 12px;
+        }
+        /*LATEST NEWS*/
+        .latest-news{
+            height: 20px;
+        }
+        .tittle-text{
+            font-size: 12px;
+            height: 55px;
+            width: 330px;
+        }
+        .tittle p{
+            font-size: 25px;
+            width: 330px;
+        }
+        .news-img img{
+            width: 135px;
+        }
+        .news{
+            width: 135px;
+            height: 215px;
+            margin: 0 10px;
+        }
+        .news-txt{
+            font-size: 12px;
+            width: 135px;
+            height: 50px;
+            text-align: center;
+            margin-left: 0;
+        }
+        .news-icon{
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+        .news-icon img{
+            width: 25px;
+        }
+        .news-comments{
+            top: 0px;
+            margin-right: 25px;
+            font-size: 10px;
+            width: 65px;
+            margin-left: 0;
+        }
+        /*SIGN UP*/
+        .sign-up{
+            height: 200px;
+        }
+        .forms-row{
+            margin-top: -40px;
+        }
+        .form-box{
+            width: 330px;
+        }
+        .login p{
+            width: 250px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .form-box input{
+            width: 175px;
+            height: 40px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .sign-img{
+            top: -155px;
+            left: 180px;
+        }
+        .sign-img img{
+            width: 155px;
+        }
+        /*LOCATION*/
+        .tittle-loc{
+            margin-top: 140px;
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+        #map{
+            height: 275px;
+        }
+        /*ABOUT*/
+        .about{
+            height: 610px;
+        }
+        .about-text{
+            font-size: 12px;
+            height: 50px;
+            width: 315px;
+        }
+        .about1 p,
+        .about2 p,
+        .about3 p{
+            font-size: 9px;
+            padding-left: 1px;
+        }
+        .about1::before,
+        .about2::before,
+        .about3::before{
+            font-size: 13px;
+    
+        }
+        .about-row{
+            margin-top: 0;
+        }
+        .about2{
+            margin: 0;
+        }
+        /*ABOUT FORM*/
+        .left-form{
+            width: 335px;
+            display: block;
+        }
+        .about-form-inner{
+            width: 335px;
+    
+        }
+        .left-form-inner{
+            width: 335px;
+        }
+        .left-form-inner input{
+            margin-top: 30px;
+            font-size: 20px;
+            width: 330px;
+            height: 45px;
+        }
+        .right-form{
+            width: 300px;
+            top: 35px;
+            left: 20px;
+            text-align: center;
+    
+        }
+        .right-form textarea{
+            width: 285px;
+            height: 115px;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-left: 15px;
+        }
+        .forms-row{
+            width: 280px;
+            left: 3px;
+            top: 25px;
+        }
+        .telega{
+            left: 120px;
+            bottom: 40px;
+        }
+        .telega a img{
+            width: 25px;
+        }
+        .forms{
+            margin: 0 15px;
+        }
+        .forms img{
+            width: 50px;
+        }
+        .forms a img{
+            width: 25px;
+        }
+        /*FOOTER*/
+        .footer{
+            margin-top: 35px;
+        }
+        .footer-img{
+            padding-top: 0px;
+        }
+        .footer-img img{
+            width: 20px;
+        }
+        .footer-info{
+            font-size: 10px;
+            padding-bottom: 5px;
+            height: 12px;
+        }
+        @media only screen and (max-width: 320px) {
+            body{
+                width: 303px;
+            }
+            .container{
+                padding: 0 15px;
+            }
+            /*HEALTH*/
+            .health{
+                height: 175px;
+            }
+            .health-img{
+                right: 5px;
+                top: 160px;
+            }
+            .health-l{
+                width: 290px;
+            }
+            .health-img img{
+                width: 150px;
+            }
+            .health-tittle{
+                margin-top: 0px;
+                font-size: 16px;
+                height: 40px;
+                width: 210px;
+                margin-bottom: 10px;
+            }
+            .health-text{
+                width: 160px;
+                font-size: 11px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                height: 60px;
+        
+            }
+            .health .def-button a{
+                margin-top: 0;
+                width: 120px;
+                height: 35px;
+                font-size: 10px;
+                padding-top: 10px;
+            }
+            /*HELP*/
+            
+            .help{
+                height: 100px;
+            }
+            .help-img{
+                padding-top: 5px;
+            }
+            .help-img img{
+                width: 45px;
+                height: 45px;
+                margin: 0 auto;
+                margin-bottom: 157px;
+            }
+            .help-tittle{
+                height: 60px;
+                width: 275px;
+                margin: 0 auto;
+                font-size: 13px;
+                padding-top: 13px;
+            }
+            .phone-button{
+                width: 180px;
+                margin: 0 auto;
+                padding-top: 80px;
+            }
+            .phone-button a{
+                width: 180px;
+                height: 30px;
+                font-size: 15px;
+                padding-top: 7px;
+                margin: 0 auto;
+            }
+            /*LEARN*/
+            .learn{
+                height: 175px;
+            }
+            .our-health-l,
+            .learn-l{
+                width: 128px;
+                height: 210px;
+            }
+            .learn-r{
+                height: 210px;
+            }
+            .learn-tittle{
+                margin-top: 0;
+                font-size: 17px;
+                height: 25px;
+                width: 200px;
+                margin-bottom: 15px;
+            }
+            .our-health-text,
+            .learn-text{
+                margin: 15px 0;
+                font-size: 10px;
+                width: 140px;
+                height: 40px;
+                margin-bottom: 30px;
+            }
+            .our-health .def-button a,
+            .learn .def-button a{
+                margin-top: 0;
+                width: 125px;
+                height: 35px;
+                font-size: 12px;
+                padding-top: 9px;
+            }
+            .our-health-tittle{
+                margin-top: 0;
+            }
+            .our-health-tittle p{
+                margin-top: 0;
+            }
+            .our-health-img img,
+            .learn-img img{
+                width: 150px;
+            }
+            .learn-img{
+                top: 30px;
+                right: 10px;
+            }
+            .our-health-img{
+                top: 40px;
+                right: 10px;
+            }
+            /*our-health*/
+            .our-health-row{
+                height: 160px;
+                width: 200px;
+            }
+            .our-health{
+                height: 140px;
+            }
+            .our-health-tittle{
+                width: 250px;
+                font-size: 20px;
+                height: 25px;
+                margin-bottom: 20px;
+            }
+            /*SERVICES*/
+            .services{
+                height: 650px;
+            }
+            .content{
+                width: 80px;
+            }
+            .column{
+                height: 185px;
+            }
+            .s-tittle{
+                font-size: 23px;
+                height: 40px;
+                width: 250px;
+            }
+            .svs-img{
+                height: 65px;
+            }
+            .svs-img img{
+                width: 70px;
+            }
+            .svs-tittle{
+                width: 80px;
+                font-size: 13px;
+                height: 15px;
+            }
+            .svs-text{
+                width: 80px;
+                font-size: 11px;
+            }
+            .s-mopre{
+                height: 40px;
+            }
+            .s-more a{
+                font-size: 20px;
+            }
+            /*DOCTORS*/
+            .doctors{
+                height: 145px;
+            }
+            .doc{
+                width: 100px;
+                margin: 0 20px;
+            }
+            .doc-tittle{
+                font-size: 23px;
+                height: 25px;
+                margin-top: 10px;
+                width: 200px;
+            }
+            .doc-img img{
+                width: 187px;
+            }
+            .doc-name{
+                font-size: 25px;
+                width: 187px;    
+            }
+            .doc-spec p{
+                font-size: 15px;
+                width: 187px;    
+            }
+            .connect img{
+                width: 25px;
+            }
+            /*slick dots*/
+            .slick-dots{
+                padding-top: 0;
+            }
+            .slick-dots li{
+                padding-top: 40px;
+            }
+            .slick-dots li button{
+                width: 50px;
+                height: 12px;
+            }
+            .slick-dots li.slick-active button{
+                width: 60px;
+                height: 12px;
+            }
+            /*LATEST NEWS*/
+            .latest-news{
+                height: 20px;
+            }
+            .tittle-text{
+                font-size: 12px;
+                height: 55px;
+                width: 255px;
+            }
+            .tittle p{
+                font-size: 25px;
+                width: 220px;
+            }
+            .news-img img{
+                width: 110px;
+            }
+            .news{
+                width: 110px;
+                height: 185px;
+                margin: 0 10px;
+            }
+            .news-txt{
+                font-size: 10px;
+                width: 110px;
+                height: 40px;
+                text-align: center;
+                margin-left: 0;
+            }
+            .news-icon{
+                margin-left: 0px;
+                margin-top: 15px;
+            }
+            .news-icon img{
+                width: 15px;
+            }
+            .news-comments{
+                top: 0px;
+                margin-right: 0px;
+                font-size: 10px;
+                width: 60px;
+                margin-left: 0;
+            }
+            /*SIGN UP*/
+            .sign-up{
+                height: 145px;
+            }
+            .forms-row{
+                margin-top: -40px;
+            }
+            .form-box{
+                width: 275px;
+            }
+            .login p{
+                width: 250px;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            .form-box input{
+                width: 140px;
+                height: 40px;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            .sign-img{
+                top: -130px;
+                left: 145px;
+            }
+            .sign-img img{
+                width: 130px;
+            }
+            /*LOCATION*/
+            .tittle-loc{
+                margin-top: 140px;
+                font-size: 30px;
+                margin-bottom: 0;
+            }
+            #map{
+                height: 275px;
+            }
+            /*ABOUT*/
+            .about{
+                height: 610px;
+            }
+            .about-text{
+                font-size: 12px;
+                height: 50px;
+                width: 275px;
+            }
+            .about1 p,
+            .about2 p,
+            .about3 p{
+                font-size: 9px;
+                padding-left: 1px;
+            }
+            .about1::before,
+            .about2::before,
+            .about3::before{
+                font-size: 13px;
+        
+            }
+            .about-row{
+                margin-top: 0;
+            }
+            .about2{
+                margin: 0;
+            }
+            /*ABOUT FORM*/
+            .left-form{
+                width: 275px;
+                display: block;
+            }
+            .about-form-inner{
+                width: 275px;
+        
+            }
+            .left-form-inner{
+                width: 275px;
+            }
+            .left-form-inner input{
+                margin-top: 30px;
+                font-size: 20px;
+                width: 275px;
+                height: 45px;
+            }
+            .right-form{
+                width: 275px;
+                top: 35px;
+                left: 0px;
+                text-align: center;
+        
+            }
+            .right-form textarea{
+                width: 275px;
+                height: 115px;
+                font-size: 18px;
+                padding-top: 10px;
+                padding-left: 15px;
+            }
+            .forms-row{
+                width: 280px;
+                left: 3px;
+                top: 25px;
+            }
+            .telega{
+                left: 120px;
+                bottom: 40px;
+            }
+            .telega a img{
+                width: 25px;
+            }
+            .forms{
+                margin: 0 15px;
+            }
+            .forms img{
+                width: 50px;
+            }
+            .forms a img{
+                width: 25px;
+            }
+            /*FOOTER*/
+            .footer{
+                margin-top: 35px;
+            }
+            .footer-img{
+                padding-top: 0px;
+            }
+            .footer-img img{
+                width: 20px;
+            }
+            .footer-info{
+                font-size: 10px;
+                padding-bottom: 5px;
+                height: 12px;
+            }
